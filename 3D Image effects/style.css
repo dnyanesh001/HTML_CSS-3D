@@ -28,7 +28,6 @@ html, body{
     transition: 0.5s;
     filter: brightness(0.2);
     transform: rotateY(calc(var(--i) * 45deg)) translateZ(240px);
-    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0002);
 }
 
 .container .item:hover{

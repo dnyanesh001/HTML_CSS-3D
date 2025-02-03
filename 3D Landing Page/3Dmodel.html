@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D flying bird model</title>
+    <style>
+        body {
+            background-color: #251212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2em;
+        }
+
+        model-viewer {
+            width: 80%;
+            height: 80vh;
+            margin: 20px auto;
+            display: block;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey there is Rhyno the Royal Peacock</h1>
+    <model-viewer id="threed" src="./images/phoenix_bird.glb" alt="A 3D model of a phoenix bird" autoplay shadow-intensity="1" camera-control disable-zoom>
+    </model-viewer>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</body>
+</html>
